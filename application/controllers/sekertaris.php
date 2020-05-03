@@ -12,6 +12,10 @@ class sekertaris extends CI_Controller{
 		$this->load->view('dashboard');
 	}
 
+    public function tess(){
+        
+    }
+
     public function kehadiran(){
         $this->load->view('v_kehadiran');
     }
